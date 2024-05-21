@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* 전체 컨테이너 설정 */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 테이블 기본 스타일 */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* 테이블 헤더 셀 스타일 */
+.table thead th {
+    background-color: #8F684F; 
+    color: #333;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #400040;
+  
+}
+
+/* 테이블 본문 셀 스타일 */
+.table tbody td {
+    padding: 10px;
+    color: #666;
+    border: 1px solid #ddd;
+    background-color: #FAF0E0;
+    
+}
+
+/* 테이블 행 호버 스타일 */
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* 페이지네이션 컨테이너 스타일 */
+.pagination {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+}
+
+/* 페이지네이션 아이템 스타일 */
+.pagination li {
+    margin: 0 5px;
+}
+
+/* 페이지네이션 버튼 스타일 */
+.pagination button {
+    border: none;
+    background-color: transparent;
+    color: #007bff;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+/* 페이지네이션 버튼 호버 스타일 */
+.pagination button:hover {
+    color: #0056b3;
+    background-color: transparent;
+}
+
+/* 입력 그룹 스타일 */
+.input-group {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+}
+
+/* 입력 필드 스타일 */
+.input-group input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+/* 검색 버튼 스타일 */
+.input-group button.search-btn {
+    padding: 10px;
+    background-color: #E0DFE6;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* 검색 버튼 호버 스타일 */
+.input-group button.search-btn:hover {
+    background-color: #d4d3d6;
+}
+
+/* 제목에 마우스 오버 시 밑줄 표시 */
+.boardListTitle:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

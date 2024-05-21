@@ -1,0 +1,171 @@
+.boardBody, .boardSide {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.boardBody {
+    width: 70%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);  /* 음영 더 진하게 수정 */
+    border-radius: 8px;
+    margin: 0 auto; /* 중앙 정렬 */
+}
+
+
+.boardMenuBar, .contentPopUp, .bestPopUp, .newPopUp {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #8F684F;
+    border-radius: 6px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.table, .boardMain table, .popUp {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td, .popUp th, .popUp td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th, .popUp th {
+    background-color: #f8f8f8;
+}
+
+.button {
+    padding: 6px 12px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+textarea,  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.replyWriter {
+    width: 10%;
+    padding: 10px;
+    background-color: #8F684F;
+    border: 1px solid #eee;
+    white-space: nowrap;
+}
+
+.replyContent {
+    width: 75%;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #eee;
+}
+
+.replyDate {
+    width: 15%;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    white-space: nowrap;
+}
+
+.writtenReply {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.writtenReply th, .writtenReply td {
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    border-top: 2px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    background-color: #E6D5B5;
+}
+
+.writtenReply tr:last-child th, .writtenReply tr:last-child td {
+    border-bottom: 2px solid #ccc;
+}
+
+.writtenReply th:first-child, .writtenReply td:first-child {
+    border-left: none;
+}
+
+.writtenReply th:last-child, .writtenReply td:last-child {
+    border-right: none;
+}
+
+.writtenReply tr:first-child th, .writtenReply tr:first-child td {
+    border-top: none;
+}
+
+.boardTitle td, .boardCreateDate, .boardCount, .boardLike, .boardContent span, .boardReply textarea, .boardReply button, .writtenReply th, .writtenReply td {
+    color: black;
+}
+
+.boardMain button, .boardReply button {
+    padding: 8px 16px;
+    color: black;
+    background-color: #E0DFE6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.boardMain button:hover, .boardReply button:hover {
+    background-color: #e0d0c0;
+}
+
+.table th, .table td, .boardMain table th, .boardMain table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.replyButton {
+    background-color: #E0DFE6;
+}
+
+.replyButton:hover {
+    background-color: #e0d0c0;
+}
+
+.boardMain .recommendButton, .boardMain .scrapButton {
+    float: right;
+    margin-left: 5px;
+    background-color: #E0DFE6;
+}
+
+.boardMain .recommendButton:hover, .boardMain .scrapButton:hover {
+    background-color: #e0d0c0;
+}
+
+.recommendButton .recommendText {
+    color: black;
+}
+
+.edit-buttons {
+    white-space: nowrap;
+}
+.boardOuter{
+	margin-left:300px;
+	margin-right:200px;
+	
+}
