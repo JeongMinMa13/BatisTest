@@ -9,6 +9,6 @@
 <body>
 <%@ include file="/views/common/header.jsp"%>
 
-
+<h1>하이하이</h1>
 </body>
 </html>
